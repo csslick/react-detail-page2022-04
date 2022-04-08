@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  padding: 20px 40px;
+}
+
+nav {
+  width: 100%;
+  background: #000;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+}
+
+nav a.active {
+  color: red;
+}
+
+
+.col {
+  flex: 1;
+}
+
+.works .container {
+  display: flex;
+  gap: 10px;
+}
+
+.works img {
+  width: 100%;
+}
